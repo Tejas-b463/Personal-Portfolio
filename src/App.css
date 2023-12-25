@@ -671,16 +671,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-top: -122px;
 }
 
-@media (max-width:400px) {
-    .newsletter-bx {
-        display: none;
-    }
-    .Nav-Header {
-        text-align: center;
-        padding: 10px;
-    }
-}
-
 .newsletter-bx h3 {
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -749,4 +739,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     color: #B8B8B8;
     letter-spacing: 0.5px;
     margin-top: 20px;
+}
+
+
+/* Media Query */
+
+@media (max-width:400px) {
+    /* Newsletter */
+    .newsletter-bx {
+        display: none;
+    }
+    .Nav-Header {
+        text-align: center;
+        padding: 10px;
+    }
+    /* Contact */
+    .contact {
+        text-align: center;
+    }
+    .contact form button {
+        display: inline-block;
+        line-height: 2;
+    }
 }
